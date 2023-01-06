@@ -6,10 +6,10 @@ int main(){
 
     printf("What's your name?");
     //scanf("%s", &name);
-    fgets(name, 25, stdin); "if it contain spaces"
+    fgets(name, 25, stdin); //"if it contain spaces"
 
     printf("\nHow old are you?");
-    scanf("%d"), &age; // "&" is the address of the operator
+    scanf("%d", &age); // "&" is the address of the operator
     
     printf("\nHello %s, how are you?", name);
     printf("\nYou are %d years old", age);
